@@ -1,0 +1,70 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding and margin */
+body,
+h1, h2, h3, h4, p,
+ul, ol, li,
+figure, figcaption,
+blockquote,
+dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+/* Remove list styles on ul, ol elements */
+ul, ol {
+  list-style: none;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow in articles */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Remove animations for those who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Add focus outline for accessibility */
+:focus {
+  outline: 2px solid blue; /* Change color as needed */
+}
+
+/* Set consistent table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Hide elements that are meant to be hidden */
+[hidden] {
+  display: none;
+}
