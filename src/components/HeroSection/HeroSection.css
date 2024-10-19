@@ -5,12 +5,12 @@
   background-repeat: no-repeat;
 }
 
-.main-hero{
+/* .main-hero{
   margin: 40px 0px;
-}
+} */
 
 .hero-wrapper {
-  padding: 125px 200px;
+  padding: 131px 200px;
   text-align: center;
 }
 
@@ -24,6 +24,7 @@
   color: #FFFFFF;
   font-weight: 300;
   margin: 22px 0px 42px 0px;
+  font-size: 1.1rem;
 }
 
 .hero-btn-container {

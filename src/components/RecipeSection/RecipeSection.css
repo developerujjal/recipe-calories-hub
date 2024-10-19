@@ -1,0 +1,35 @@
+.our-recipe {
+    text-align: center;
+    padding: 10px 325px;
+    margin-bottom: 45px;
+}
+
+.our-recipe h2 {
+    color: #150B2B;
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.our-recipe p {
+    color: #150B2B99;
+    font-size: 1.1rem;
+}
+
+.all-recipes-and-cook {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.all-recipes {
+    width: 62%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px
+}
+
+.recipes-cook {
+    width: 38%;
+}

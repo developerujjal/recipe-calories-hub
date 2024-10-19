@@ -1,8 +1,8 @@
 .container {
   max-width: 1280px; /* Max width for larger screens */
-  width: 96%; /* Full width on smaller screens */
+  width: 100%; /* Full width on smaller screens */
   margin: 0 auto; /* Center the container */
-  padding: 0px 20px; /* Add padding inside the container */
+  padding: 0px 15px; /* Add padding inside the container */
 }
 
 .primary-font{
@@ -11,4 +11,16 @@
 
 .paragraph-text{
   font-family: "Fira Sans", sans-serif;
+}
+
+.recipes-gray-text-color{
+  color: #878787;
+}
+
+.recipes-title-color{
+  color: #282828;
+}
+
+.section-gap{
+  padding: 40px 0px;
 }

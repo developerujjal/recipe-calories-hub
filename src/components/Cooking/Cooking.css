@@ -1,0 +1,70 @@
+.cook-and-cooking-wrapper{
+    border: 2px solid #28282833;
+    padding: 25px 10px;
+}
+
+.cook-heading {
+    text-align: center;
+    margin: 0px 60px;
+    border-bottom: 2px solid #ddd;
+}
+
+.cook-heading h3 {
+    padding-bottom: 10px;
+}
+
+
+
+.main-table {
+    /* width: 50%; */
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    color: #878787;
+}
+
+.main-table thead tr th, .tbody-main tr td {
+    padding: 12px;
+}
+
+.main-table thead tr th{
+    font-weight: 500;
+}
+
+.tbody-main tr td{
+    font-size: 1rem;
+}
+
+/* .main-table thead tr th {
+    background-color: #f2f2f2;
+} */
+
+.tbody-main tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.main-table thead tr, .tbody-main tr td{
+    font-family: "Fira Sans", sans-serif;
+}
+
+.tbody-main tr td:last-child{
+    font-family: "Lexend", sans-serif;
+}
+
+.status-button {
+    padding: 7px 15px;
+    background-color: #00ff99;
+    border: none;
+    border-radius: 15px;
+    color: #150B2B;
+    font-weight: bold;
+    font-size: 0.97rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.status-button:hover{
+    background-color: #150B2B;
+    color: white;
+}
