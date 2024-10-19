@@ -16,7 +16,7 @@
 
 
 .main-table {
-    /* width: 50%; */
+    width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     font-size: 18px;
@@ -24,9 +24,22 @@
     color: #878787;
 }
 
-.main-table thead tr th, .tbody-main tr td {
-    padding: 12px;
+.main-table thead tr, .tbody-main tr  {
+    display: grid;
+    grid-template-columns: 30px 94px 80px 84px 1fr;
+    align-items: center;
 }
+
+#main-table-tr, #tbody-cooking-tr{
+    /* display: grid; */
+    grid-template-columns: 30px 1fr 1fr 1fr;
+    /* align-items: center; */
+}
+
+.main-table thead tr th, .tbody-main tr td {
+    padding: 8px;
+}
+
 
 .main-table thead tr th{
     font-weight: 500;
@@ -67,4 +80,21 @@
 .status-button:hover{
     background-color: #150B2B;
     color: white;
+}
+
+
+
+.totals {
+    text-align: right;
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+    gap: 10px;
+    justify-content: right;
+}
+
+.totals p {
+    margin: 10px 2px;
+    color: #282828CC;
+    font-size: 1rem;
 }
