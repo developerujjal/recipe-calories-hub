@@ -22,6 +22,7 @@ body {
   line-height: 1.5;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+  font-family: "Lexend", sans-serif;
 }
 
 /* Remove list styles on ul, ol elements */
@@ -53,10 +54,10 @@ input, button, textarea, select {
   }
 }
 
-/* Add focus outline for accessibility */
+/* Add focus outline for accessibility
 :focus {
-  outline: 2px solid blue; /* Change color as needed */
-}
+  outline: 2px solid blue; /* Change color as needed
+} */
 
 /* Set consistent table styles */
 table {
