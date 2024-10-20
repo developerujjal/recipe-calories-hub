@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './Cooking.css'
 
-const Cooking = ({ cook, handlePreparing, cooking }) => {
+const Cooking = ({ cook, handlePreparing, cooking, recipeTime, caloriesTime }) => {
 
 
     return (
@@ -29,7 +29,7 @@ const Cooking = ({ cook, handlePreparing, cooking }) => {
                                     <td>{elementCook.recipe_name}</td>
                                     <td><span>{elementCook.preparing_time}</span> minutes</td>
                                     <td><span>{elementCook.calories}</span> calories</td>
-                                    <td><button onClick={() => handlePreparing(elementCook, elementCook.id)} className="status-button">Preparing</button></td>
+                                    <td><button onClick={() => handlePreparing(elementCook, elementCook.id, elementCook.preparing_time, elementCook.calories)} className="status-button">Preparing</button></td>
                                 </tr>
                             ))
                         }
@@ -69,8 +69,8 @@ const Cooking = ({ cook, handlePreparing, cooking }) => {
                 </table>
 
                 <div className='totals'>
-                    <p>Total Time = <span>0</span> minutes</p>
-                    <p>Total Calories = <span>0</span> calories</p>
+                    <p>Total Time = <span>{recipeTime}</span> minutes</p>
+                    <p>Total Calories = <span>{caloriesTime}</span> calories</p>
                 </div>
             </div>
         </div>
@@ -80,7 +80,9 @@ const Cooking = ({ cook, handlePreparing, cooking }) => {
 Cooking.propTypes = {
     cook: PropTypes.array.isRequired,
     handlePreparing: PropTypes.func.isRequired,
-    cooking: PropTypes.array.isRequired
+    cooking: PropTypes.array.isRequired,
+    recipeTime: PropTypes.number,
+    caloriesTime: PropTypes.number
 }
 
 export default Cooking;
