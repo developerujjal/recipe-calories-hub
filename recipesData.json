@@ -1,0 +1,81 @@
+[
+    {
+      "id": "1",
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "A classic Italian pasta dish made with ground beef and tomatoes. Lorem ipsum.",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced"
+      ],
+      "preparing_time": "30",
+      "calories": "320",
+      "recipe_image": "https://i.ibb.co.com/YQPvQq9/recipe-01.png"
+    },
+    {
+      "id": "2",
+      "recipe_name": "Chicken Curry",
+      "short_description": "A spicy and flavorful curry made with tender chicken pieces. Lorem ipsum dolor sit amet.",
+      "ingredients": [
+        "500g chicken, cut into pieces",
+        "2 onions, sliced",
+        "3 cloves garlic, minced"
+      ],
+      "preparing_time": "45",
+      "calories": "450",
+      "recipe_image": "https://i.ibb.co.com/Npf38Mk/delicious-1534207-640.jpg"
+    },
+    {
+      "id": "3",
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "A quick and healthy stir-fry loaded with colorful vegetables. Lorem ipsum dolor sit amet.",
+      "ingredients": [
+        "1 cup bell peppers, sliced",
+        "1 cup broccoli florets",
+        "1 cup carrots, sliced"
+      ],
+      "preparing_time": "20",
+      "calories": "150",
+      "recipe_image": "https://i.ibb.co.com/jVQ95Jt/stir-fry-278925-640.jpg"
+    },
+    {
+      "id": "4",
+      "recipe_name": "Beef Tacos",
+      "short_description": "Delicious tacos filled with seasoned ground beef and fresh toppings. Lorem ipsum dolor sit amet.",
+      "ingredients": [
+        "500g ground beef",
+        "1 taco seasoning packet",
+        "8 taco shells"
+      ],
+      "preparing_time": "25",
+      "calories": "400",
+      "recipe_image": "https://i.ibb.co.com/PcdBhFc/steak-3640560-640.jpg"
+    },
+    {
+      "id": "5",
+      "recipe_name": "Chocolate Cake",
+      "short_description": "A rich and moist chocolate cake, perfect for any celebration. Lorem ipsum dolor sit amet.",
+      "ingredients": [
+        "1 cup flour",
+        "1 cup sugar",
+        "1/2 cup cocoa powder"
+      ],
+      "preparing_time": "60",
+      "calories": "350",
+      "recipe_image": "https://i.ibb.co.com/GsLYXgJ/cake-1850011-640.jpg"
+    },
+    {
+      "id": "6",
+      "recipe_name": "Caprese Salad",
+      "short_description": "A fresh salad made with mozzarella, tomatoes, and basil. Lorem ipsum dolor.",
+      "ingredients": [
+        "2 cups tomatoes, sliced",
+        "200g mozzarella cheese, sliced",
+        "1 cup fresh basil leaves"
+      ],
+      "preparing_time": "10",
+      "calories": "200",
+      "recipe_image": "https://i.ibb.co.com/d65LsKY/salad-6900127-640.jpg"
+    }
+  ]
+  
